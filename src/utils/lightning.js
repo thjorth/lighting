@@ -51,7 +51,7 @@ export async function show(preset) {
         return;
     }
     await uno.open();
-    uno.send([144, preset + 40, 127]);
+    uno.send([144, preset + 48, 127]);
     await uno.close();
     return new Promise(resolve => {
         resolve();

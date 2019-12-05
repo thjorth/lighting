@@ -8,13 +8,13 @@
 
 <script>
 // @ is an alias to /src
-import { initialize, queue, show, clear } from '../utils/lightning.js';
+import { initialize, queue, show, clear, blackout } from '../utils/lightning.js';
 
 export default {
 	async mounted() {
 		await initialize();
 		await clear();
-		show(0);
+		blackout();
 	}
 }
 </script>
