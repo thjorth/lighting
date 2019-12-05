@@ -39,5 +39,11 @@ body {
   left: 0;
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.c-youtube {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 </style>

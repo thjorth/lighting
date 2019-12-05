@@ -1,6 +1,9 @@
 <template>
 	<div class="c-band">
 		<Navigation/>
+		<div class="c-youtube">
+			<iframe width="1280" height="789" src="https://www.youtube.com/embed/8Sqv2mPG03I?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+		</div>
 	</div>
 	
 </template>
